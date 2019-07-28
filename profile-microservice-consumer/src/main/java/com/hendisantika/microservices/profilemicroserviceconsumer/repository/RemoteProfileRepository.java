@@ -2,6 +2,7 @@ package com.hendisantika.microservices.profilemicroserviceconsumer.repository;
 
 import com.hendisantika.microservices.profilemicroserviceconsumer.model.Profile;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
 import org.springframework.web.client.RestTemplate;
 
 import java.util.Arrays;
@@ -16,11 +17,13 @@ import java.util.List;
  * Date: 2019-07-28
  * Time: 15:36
  */
+@Repository
 public class RemoteProfileRepository implements ProfileRepository {
 
     @Autowired
     protected RestTemplate restTemplate;
 
+    @Autowired
     protected String serviceUrl;
 
     public RemoteProfileRepository(String serviceUrl) {
