@@ -1,4 +1,6 @@
-package com.hendisantika.microservices.profilemicroserviceproducer;
+package com.hendisantika.microservices.profilemicroserviceproducer.repository;
+
+import com.hendisantika.microservices.profilemicroserviceproducer.model.Profile;
 
 import java.util.List;
 

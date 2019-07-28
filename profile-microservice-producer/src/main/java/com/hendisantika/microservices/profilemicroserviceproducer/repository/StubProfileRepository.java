@@ -1,5 +1,6 @@
-package com.hendisantika.microservices.profilemicroserviceproducer;
+package com.hendisantika.microservices.profilemicroserviceproducer.repository;
 
+import com.hendisantika.microservices.profilemicroserviceproducer.model.Profile;
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package com.hendisantika.microservices.profilemicroserviceproducer;
+package com.hendisantika.microservices.profilemicroserviceproducer.model;
 
 import java.io.Serializable;
 
