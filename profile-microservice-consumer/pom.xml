@@ -15,8 +15,8 @@
     <description>It is microservice web client server using Spring Boot</description>
 
     <properties>
-        <java.version>1.8</java.version>
-        <spring-cloud.version>Greenwich.SR2</spring-cloud.version>
+        <java.version>11</java.version>
+        <spring-cloud.version>2020.0.2</spring-cloud.version>
     </properties>
 
     <dependencies>
